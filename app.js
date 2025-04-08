@@ -276,15 +276,96 @@ console.log(userProfile);
 //
 // Starting code (don't modify this):
 
-const pizza = 'tasty';
+// const pizza = 'tasty';
+//
+// // Your code here:
+//
+// let eat = pizza === 'tasty' ? "yum" : "tasty";
+//
+// console.log(eat);
+
+
+
+// const myVar = ''
+//
+//
+// const result1 = 'bar' && 'foo';
+// const result2 = false || 243;
+// const result3 = 42 && false;
+// const result4 = myVar || 3000;
+//
+// console.log('result1:', result1); // foo
+// console.log('result2:', result2); // 243
+// console.log('result3:', result3); // false
+// console.log('result4:', result4); // 3000
+
+
+
+// Title: Exercise 10
+
+// a. Construct a single line of code that assigns a default value using the
+//    logical OR operator. This line should match the logic of the following
+//    statement:
+//
+//    "lang is equal to localLangConfig or the default value of English."
+
+//
+// b. Create a variable called `lang`.
+//
+// c. Assign `lang` the value of localLangConfig or 'en' as a default if
+//    `localLangConfig is falsy.
+//
+// d. Log the value of `lang` to the console.
+//
+// Your code here (localLangConfig is provided to get you started):
+
+// Simulated language configuration (change this variable to test)
+const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
+
+const language = localLangConfig || "en";
+
+console.log(language);
+
+
+
+// Title: 10.2: Set website theme
+// Intro: In this exercise, you'll construct a single line of code that assigns
+//        a default value to a variable named `theme` using the logical OR
+//        operator. This line should match the logic of the following statement:
+//
+//        "theme is equal to savedUserTheme or the default value of light."
+//
+// a. Create a variable called `theme`.
+//
+// b. Assign `theme` the value of `savedUserTheme` or 'light' as a default.
+//
+// c. Log the value of `theme` to the console.
+//
+// Your code here (`savedUserTheme` is provided to get you started):
+
+// Simulated user theme preference (change this variable to test)
+const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
+
+const theme = savedUserTheme || "light";
+
+console.log(theme);
+
+
+
+// Title: Exercise 11:
+// a. Use optional chaining in a console.log so that a console log of
+//    `adventurer.cat.age` returns `undefined` instead of an error.
+//
+// Starting code (don't modify this):
+
+const adventurer = {
+    name: 'Alice',
+};
+
+let cat = adventurer.cat?.name
+console.log(cat)
 
 // Your code here:
-
-let eat = pizza === 'tasty' ? "yum" : "tasty";
-
-console.log(eat);
-
-
 
 
 
